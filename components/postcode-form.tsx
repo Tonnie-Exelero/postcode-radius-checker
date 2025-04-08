@@ -78,11 +78,11 @@ export default function PostcodeForm({
         },
       } = response;
 
-      if (!zipcodes || zipcodes === 0) {
+      const postcodeData = zipcodes[0];
+
+      if (!zipcodes || zipcodes.length === 0 || !postcodeData) {
         throw new Error("Postcode not found");
       }
-
-      const postcodeData = zipcodes[0];
 
       if (!postcodeData.lat || !postcodeData.lng) {
         throw new Error("Location data not available for this postcode");
