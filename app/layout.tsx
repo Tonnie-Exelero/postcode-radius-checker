@@ -3,7 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "GEO Eligibility Checker",
-  description: "Created by Exelero",
+  description:
+    "Check student eligibility for a course based on their physical location",
   icons: {
     icon: "/favicon.svg",
   },
