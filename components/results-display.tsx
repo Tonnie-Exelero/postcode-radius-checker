@@ -1,14 +1,14 @@
-"use client"
+"use client";
 
-import { Alert, Box, Chip, Typography } from "@mui/material"
-import { CheckCircle, Cancel, LocationOn } from "@mui/icons-material"
+import { Alert, Box, Chip, Typography } from "@mui/material";
+import { CheckCircle, Cancel, LocationOn } from "@mui/icons-material";
 
 interface ResultsDisplayProps {
   result: {
-    isWithinRadius: boolean
-    distance: number
-    postcode: string
-  }
+    isWithinRadius: boolean;
+    distance: number;
+    postcode: string;
+  };
 }
 
 export default function ResultsDisplay({ result }: ResultsDisplayProps) {
@@ -51,5 +51,5 @@ export default function ResultsDisplay({ result }: ResultsDisplayProps) {
         />
       </Box>
     </Box>
-  )
+  );
 }

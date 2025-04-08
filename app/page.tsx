@@ -1,32 +1,40 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Container, Typography, Paper, Box } from "@mui/material"
-import PostcodeForm from "@/components/postcode-form"
-import ResultsDisplay from "@/components/results-display"
-import MapDisplay from "@/components/map-display"
-import { ThemeProvider } from "@/components/theme-provider"
+import { useState } from "react";
+import { Container, Typography, Paper, Box } from "@mui/material";
+import PostcodeForm from "@/components/postcode-form";
+import ResultsDisplay from "@/components/results-display";
+import MapDisplay from "@/components/map-display";
+import { ThemeProvider } from "@/components/theme-provider";
 
 export default function Home() {
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<{
-    isWithinRadius: boolean
-    distance: number
-    postcode: string
-    postcodeLocation: { lat: number; lng: number } | null
-  } | null>(null)
-  const [error, setError] = useState<string | null>(null)
-  const [campusLocation, setCampusLocation] = useState<{ lat: number; lng: number }>({
+    isWithinRadius: boolean;
+    distance: number;
+    postcode: string;
+    postcodeLocation: { lat: number; lng: number } | null;
+  } | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const [campusLocation, setCampusLocation] = useState<{
+    lat: number;
+    lng: number;
+  }>({
     lat: -37.8136, // Default to Melbourne CBD
     lng: 144.9631,
-  })
-  const [radius, setRadius] = useState<number>(10)
+  });
+  const [radius, setRadius] = useState<number>(50);
 
   return (
     <ThemeProvider>
       <Container maxWidth="lg" className="py-8">
-        <Typography variant="h3" component="h1" className="text-center mb-8 font-bold">
-          Campus Eligibility Checker
+        <Typography
+          variant="h3"
+          component="h1"
+          className="text-center mb-8 font-bold"
+          sx={{ marginBlockEnd: 4 }}
+        >
+          GEO Eligibility Checker
         </Typography>
 
         <Box className="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -60,5 +68,5 @@ export default function Home() {
         </Box>
       </Container>
     </ThemeProvider>
-  )
+  );
 }

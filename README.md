@@ -1,8 +1,8 @@
-# 🎓 Campus Eligibility Checker
+# 🎓 Radius Eligibility Checker
 
-![Campus Eligibility Checker](https://placeholder.svg?height=300&width=800)
+![Radius Eligibility Checker](/screenshot.png)
 
-A React TypeScript application that determines whether students from specific Australian postcodes are eligible to take courses based on their distance from a campus location.
+A React TypeScript application that determines whether students from specific Australian postcodes are eligible to take courses based on their distance from a Radius-based location.
 
 ## 📋 Table of Contents
 
@@ -10,23 +10,19 @@ A React TypeScript application that determines whether students from specific Au
 - [Features](#features)
 - [Demo](#demo)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Technical Implementation](#technical-implementation)
-- [Configuration](#configuration)
-- [Troubleshooting](#troubleshooting)
 - [Dependencies](#dependencies)
 - [License](#license)
 
 ## 🔍 Overview
 
-The Campus Eligibility Checker helps educational institutions determine if students from specific postcodes are eligible to take courses based on their proximity to campus locations. The application fetches location data for Australian postcodes, calculates the distance to the selected campus, and visually represents this information on a map.
+The Radius Eligibility Checker helps educational institutions determine if students from specific postcodes are eligible to take courses based on their proximity to Radius-based locations. The application fetches location data for Australian postcodes, calculates the distance to the selected Radius-based, and visually represents this information on a map.
 
 ## ✨ Features
 
-- **Postcode Validation**: Verify if an Australian postcode is within an allowable radius from a campus
-- **Campus Selection**: Choose from common Australian universities or use a custom location
+- **Postcode Validation**: Verify if an Australian postcode is within an allowable radius from a Radius-based
+- **Radius-based Selection**: Choose from common Australian universities or use a custom location
 - **Adjustable Radius**: Set the allowable distance radius (1-50 km)
-- **Interactive Map**: Visual representation of campus location, radius circle, and postcode location
+- **Interactive Map**: Visual representation of Radius-based location, radius circle, and postcode location
 - **Detailed Results**: View exact distance calculations and eligibility status
 - **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
 - **Beautiful UI**: Modern interface built with Material UI components
@@ -48,8 +44,8 @@ The Campus Eligibility Checker helps educational institutions determine if stude
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/campus-eligibility-checker.git
-cd campus-eligibility-checker
+git clone https://github.com/yourusername/Radius-based-eligibility-checker.git
+cd Radius-based-eligibility-checker
 ```
 
 2. Install dependencies:
