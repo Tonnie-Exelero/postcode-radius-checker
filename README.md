@@ -29,7 +29,7 @@ The Radius Eligibility Checker helps educational institutions determine if stude
 
 ## 🎬 Demo
 
-![Application Demo](https://placeholder.svg?height=400&width=800)
+![Application Demo](https://postcode-radius-checker.vercel.app)
 
 ## 💻 Installation
 
