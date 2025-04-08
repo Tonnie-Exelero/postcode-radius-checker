@@ -15,11 +15,11 @@ A React TypeScript application that determines whether students from specific Au
 
 ## 🔍 Overview
 
-The Radius Eligibility Checker helps educational institutions determine if students from specific postcodes are eligible to take courses based on their proximity to Radius-based locations. The application fetches location data for Australian postcodes, calculates the distance to the selected Radius-based, and visually represents this information on a map.
+The Radius Eligibility Checker helps educational institutions determine if students from specific postcodes are eligible to take courses based on their proximity to Radius-based locations. The application fetches location data for Australian postcodes, calculates the distance to the selected Radius-based location, and visually represents this information on a map.
 
 ## ✨ Features
 
-- **Postcode Validation**: Verify if an Australian postcode is within an allowable radius from a Radius-based
+- **Postcode Validation**: Verify if an Australian postcode is within an allowable radius from a Radius-based location
 - **Radius-based Selection**: Choose from common Australian universities or use a custom location
 - **Adjustable Radius**: Set the allowable distance radius (1-50 km)
 - **Interactive Map**: Visual representation of Radius-based location, radius circle, and postcode location
@@ -29,7 +29,7 @@ The Radius Eligibility Checker helps educational institutions determine if stude
 
 ## 🎬 Demo
 
-![Application Demo](https://postcode-radius-checker.vercel.app)
+[Check out the demo here](https://postcode-radius-checker.vercel.app)
 
 ## 💻 Installation
 
@@ -44,8 +44,8 @@ The Radius Eligibility Checker helps educational institutions determine if stude
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/Radius-based-eligibility-checker.git
-cd Radius-based-eligibility-checker
+git clone https://github.com/Tonnie-Exelero/postcode-radius-checker.git
+cd postcode-radius-checker
 ```
 
 2. Install dependencies:
